@@ -1,0 +1,145 @@
+
+*{
+    font-family:Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color:black;
+    
+        
+  }
+
+header{
+    position:fixed;
+    padding-left: 10px;
+    height:69px;
+    border-bottom: 1px solid seashell;
+    display:inline;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 0px;
+    background-color: black;
+    padding-top: 10px;
+  }
+
+nav{
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 20px;
+
+  }
+    
+img.logo {
+    height: 50px;
+    text-align: left;
+    float:left;
+    } 
+  
+a{
+        color:seashell;
+        margin:20px;
+    }
+
+
+
+.mission{
+  height:750px;
+  width:1200px;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*qer2fr*_ga*NTM4NzEzMTQ4Mi4xNjcyNTI4Mjk5*_ga_3LRZM6TM9L*MTY4MTk1OTU4NS40Ny4xLjE2ODE5NjA3NzIuMTYuMC4w");
+  margin:auto;
+}
+
+#mission {
+position: relative;
+top:300px
+
+}
+
+h2, h4 {
+  text-align:center;
+}
+
+h2{
+  font-size: 30px;
+  padding-top: 20px;
+  }
+
+  h4{
+    margin-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .images1 {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+    width: 1200px;
+    margin: auto;
+  }
+
+  main img{
+    width: 300px;
+    height: 200px;
+  }
+
+  .images2 {
+    width: 680px;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+    margin: 0 auto;
+  }
+
+  #bg-img {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*nveii8*_ga*NTM4NzEzMTQ4Mi4xNjcyNTI4Mjk5*_ga_3LRZM6TM9L*MTY4MjAwNzE1Ni41MC4xLjE2ODIwMDcyMDEuMTUuMC4w);
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+  }
+
+  #title {
+    background-color: transparent;
+
+  }
+  
+  .locations{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: auto;
+    background-color: transparent;
+    
+  }
+
+  .loc{
+    width: 300px;
+    margin: 40px 15px;
+    line-height: 60px;
+    align-items: center;
+    
+    }
+
+    h3 {
+      font-size: 26px;
+      text-align: center;
+    }
+
+    p {
+     text-align: center;
+    }
+
+    #footer{
+      height:200px;
+      line-height: 40px;
+    }
+
+    h5{
+      text-align: center;
+    }
+
+    #copyright{
+      float: left;
+      position: relative;
+      margin-left: 20px;
+    }
